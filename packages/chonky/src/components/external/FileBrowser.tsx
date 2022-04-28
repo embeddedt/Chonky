@@ -1,9 +1,7 @@
 import {
     createTheme,
     ThemeProvider as MuiThemeProvider,
-    Theme,
     StyledEngineProvider,
-    adaptV4Theme,
 } from '@mui/material/styles';
 import merge from 'deepmerge';
 import React, { ReactNode, useMemo } from 'react';
@@ -69,9 +67,15 @@ export const FileBrowser = React.forwardRef<
 
     const isMobileBreakpoint = useIsMobileBreakpoint();
     const theme = useMemo(() => {
-        const muiTheme = createTheme(adaptV4Theme({
-            palette: { mode: darkMode ? 'dark' : 'light' },
-        }));
+        const muiTheme = createTheme({
+            palette: {
+                mode: darkMode ? 'dark' : 'light',
+                background: {
+                    default: darkMode ? '#424242' : '#fff',
+                    paper:  darkMode ? '#424242' : '#fff'
+                }
+            }
+        });
         const combinedTheme = merge(
             muiTheme,
             merge(lightTheme, darkMode ? darkThemeOverride : {})
