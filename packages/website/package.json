@@ -1,6 +1,6 @@
 {
-  "name": "chonky-docs",
-  "version": "2.3.2",
+  "name": "@epallinone/chonky-docs",
+  "version": "2.99.0-ep.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
