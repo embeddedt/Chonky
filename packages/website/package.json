@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.99.0-ep.2",
+  "version": "2.99.0-ep.3",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
