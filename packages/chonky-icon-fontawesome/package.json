@@ -25,7 +25,8 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "@epallinone/chonky": ">=2"
   },
   "husky": {
     "hooks": {
@@ -67,8 +68,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
-    "@fortawesome/react-fontawesome": "^0.1.12",
-    "chonky": "^2.3.2"
+    "@fortawesome/react-fontawesome": "^0.1.12"
   },
   "homepage": "https://chonky.io/",
   "author": {
