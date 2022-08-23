@@ -85,7 +85,7 @@ export const useModifierIconComponents = (file: Nullable<FileData>) => {
 
 const _extname = (fileName: string) => {
     const parts = fileName.split('.');
-    if (parts.length) {
+    if (parts.length > 1) {
         return `.${parts[parts.length - 1]}`;
     }
     return '';
