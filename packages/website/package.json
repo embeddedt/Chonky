@@ -1,7 +1,9 @@
 {
   "name": "@epallinone/chonky-docs",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "2.99.0-ep.2",
-  "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

@@ -1,5 +1,8 @@
 {
   "name": "@epallinone/chonky",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "2.99.0-ep.2",
   "description": "A File Browser component for React",
   "license": "MIT",
@@ -117,5 +120,6 @@
     "file-dialog",
     "file-browser",
     "react-component"
-  ]
+  ],
+  "gitHead": "55c76ce9386e5f4d0435ab3e4ec0a7c6313b6af8"
 }
